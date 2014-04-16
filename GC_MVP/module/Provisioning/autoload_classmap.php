@@ -6,7 +6,7 @@ return array(
     'ProvisioningTest\Framework\TestCase'        => __DIR__ . '/tests/Provisioning/Framework/TestCase.php',
     'ProvisioningTest\SampleTest'                => __DIR__ . '/tests/Provisioning/SampleTest.php',
     'ePals\Base\User' => __DIR__ . '/../../vendor/epals/epalsapi/src/ePals/Base/User.php',
-    'ePals\UserAttribute' => __DIR__ . '/../../vendor/epals/epalsapi/src/ePals/UserAttribute.php',
+    //'ePals\UserAttribute' => __DIR__ . '/../../vendor/epals/epalsapi/src/ePals/UserAttribute.php',
     //'ePals\UserAttribute' => __DIR__ . '/../../vendor/graywings/epalsApi/src/ePals/UserAttribute.php',
     'ePals\Lookup\CountryLookup' => __DIR__ . '/../../vendor/epals/epalsapi/src/ePals/Lookup/CountryLookup.php',
     'ePals\Lookup\SchoolTypeLookup' => __DIR__ . '/../../vendor/epals/epalsapi/src/ePals/Lookup/SchoolTypeLookup.php',
