@@ -1,0 +1,29 @@
+
+<div>
+    <div>server response:</div>
+    <div>
+        <?php echo $message ;?>
+        <?php
+        echo '<br>';
+        foreach ($attr as $k =>$v)
+            {
+                echo $k.":".$v;
+                echo '<br>';
+            }
+        ?>
+    </div>
+</div>
+
+    
+    <script type="text/javascript">
+    
+    jQuery(document).ready(function() {
+            $('.navbar-header').append('<input type="button" style="float:right" value="logout" onclick="logout()"> ');
+    });
+    
+    function logout()
+    {
+        var hostName = window.location.host ;
+        window.location.href="http://"+hostName+"/application/Index/logout";
+    }
+    </script>
